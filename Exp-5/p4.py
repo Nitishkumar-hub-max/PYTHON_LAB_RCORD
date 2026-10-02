@@ -1,0 +1,5 @@
+c = float(input("Enter cost price :"))
+s = float(input("Enter selling price :"))
+if s>c : print ("You made a profit of Rs.", s-c)
+elif c>s : print ("You made a loss of Rs.", c-s)
+else : print ("You made neither profit nor loss.")
